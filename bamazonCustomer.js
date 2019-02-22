@@ -49,7 +49,7 @@ function promptQuestion(length) {
         type: "input",
         name: "purcase_item_id",
         message:
-          "Enter the Item Id of the product you would like to buy??? 'Press C to Exit'"
+          "Enter the Item Id you would like to buy? Press C to Exit"
       }
     ])
     .then(function (answer) {

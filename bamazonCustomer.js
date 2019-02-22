@@ -36,13 +36,13 @@ function displayItems() {
         "\t"
       );
     }
-    promptQuestions(res.length);
+    promptQuestion(res.length);
   }
   );
 }
 
 
-function promptQuestions(length) {
+function promptQuestion(length) {
   inquirer
     .prompt([
       {
